@@ -29,7 +29,7 @@ export default function Layout({ children, home }) {
                         width={144}
                         alt={name}
                     /> */}
-                      <Link href="/">
+                      <Link href="/landing">
                             <a className={utilStyles.colorInherit}>
                                <h1> {name} </h1> 
                             </a>
@@ -38,21 +38,9 @@ export default function Layout({ children, home }) {
             ) : (
                 <> 
                 <header className="flex flex-col items-center justify-center flex-1 text-center"> 
-                
-                    {/* <Link href="/">
-                        <a>
-                        <Image
-                            priority
-                            src="/images/profile.jpg"
-                            className={utilStyles.borderCircle}
-                            height={36}
-                            width={36}
-                            alt={name}
-                        />
-                        </a>
-                    </Link> */}
+                   
                     <h2 className={utilStyles.headingLg}>
-                        <Link href="/">
+                        <Link href="/landing">
                             <a className={utilStyles.colorInherit}>
                                <h1> {name} </h1> 
                             </a>
